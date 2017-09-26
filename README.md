@@ -16,7 +16,8 @@ cd whichchris
 git checkout -b [your branch]
 * yada yada make your changes *
 git commit -am "your changes!"
-git push origin [your branch]
+git push --set-upstream origin [your branch]
+* you should only have to do the --set-upstream once, afterwards, you can just do git push and it'll update your local branch *
 ```
 
 In Github interface:
